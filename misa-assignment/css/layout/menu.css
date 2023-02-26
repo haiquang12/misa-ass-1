@@ -1,0 +1,119 @@
+.menu{
+    background-color: #38393d;
+}
+
+.toggle-service {
+    display: flex;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    column-gap: 16px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.toggle {
+    width: 24px;
+    height: 24px;
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -424px -86px;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+
+.nav-list {
+    width: 100%;
+    height: calc(100vh - 56px);
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+    overflow: overlay;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.item-focus-default {
+    background-color: #d4d7dc3c;
+}
+
+.nav-item:hover{
+    background-color: #d4d7dc3c;
+    cursor: pointer;
+}
+
+.nav-item+.nav-item{
+    margin-top: 4px;
+}
+
+.nav-icon {
+    margin: 0 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.nav-icon-1 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -30px -1585px;
+}
+.nav-icon-2 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -73px -1628px;
+}
+.nav-icon-3 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -117px -1628px;
+}
+.nav-icon-4 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -161px -1628px;
+}
+.nav-icon-5 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -204px -1628px;
+}
+.nav-icon-6 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -249px -1628px;
+}
+.nav-icon-7 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -291px -1628px;
+}
+.nav-icon-8 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -335px -1630px;
+}
+.nav-icon-9 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -378px -1630px;
+}
+.nav-icon-10 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -423px -1630px;
+}
+.nav-icon-11 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -467px -1628px;
+}
+.nav-icon-12 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -510px -1628px;
+}
+.nav-icon-13 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -378px -1659px;
+}
+.nav-icon-14 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -547px -1628px
+}
+
+.nav-icon-15 {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -204px -1664px;
+}
+
+
+.nav-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}

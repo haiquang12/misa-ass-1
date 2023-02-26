@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.menu{
+    width: 200px;
+    height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 200px);
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 56px;
+}
+
+.content{
+    flex: 1;
+    background-color: red;
+    overflow: auto;
+}

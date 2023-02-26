@@ -1,0 +1,35 @@
+.radio-item .radio {
+    display: none;
+}    
+
+.form-radio {
+    position: relative;
+    width: 24px;
+    height: 24px; 
+}
+
+.radio-item::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid #c7c7c7;
+    border-radius: 50%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.bg-radio {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color:  #5DC748; 
+    width: 16px;
+    height: 16px;
+    border: 1px solid #5DC748;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: none;
+}
+.form-radio .radio-item .radio:checked ~ .bg-radio {
+    display: block;
+}

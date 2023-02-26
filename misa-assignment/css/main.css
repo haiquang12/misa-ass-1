@@ -1,0 +1,52 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js);
+@import url(../css/layout/container.css);
+@import url(../css/layout/header.css);
+@import url(../css/layout/menu.css);
+@import url(../css/layout/content.css);
+@import url(../css/component/button.css);
+@import url(../css/component/icon.css);
+@import url(../css/component/input.css);
+@import url(../css/component/popup.css);
+@import url(../css/component/select.css);
+@import url(../css/component/text.css);
+@import url(../css/component/combobox.css);
+@import url(../css/component/checkbox.css);
+@import url(../css/component/radio-button.css);
+
+*{
+    font-family:hai;
+}
+
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family: hai;
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #cdd3d6;
+    border-radius: 4px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #cdd3d6;
+    border-radius: 4px;
+}

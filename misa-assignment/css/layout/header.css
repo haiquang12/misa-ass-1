@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px 0 12px;
+    box-sizing: border-box;
+}
+
+.switch-nameCompany-down {
+    display: flex;
+    align-items: center;
+}
+
+.switch {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -842px -30px;
+    width: 24px;
+    height: 24px;
+}
+
+.nameCompany {
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.company-down {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -1129px -358px;
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+
+
+.notify-avatar-name-down {
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    height: 100%;
+    align-items: center;
+}
+
+.notify {
+    width: 24px;
+    height: 24px;
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -788px -30px;
+    cursor: pointer;
+}
+
+.avatar-name {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    column-gap: 4px;
+    cursor: pointer;
+}
+
+.avatar {
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -352px -894px;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    border-radius:50%;
+    color: #757575;
+    cursor: pointer;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.down {
+    width: 14px;
+    height: 14px;
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -1076px -32px;
+    margin-left: 12px;
+    cursor: pointer;
+}

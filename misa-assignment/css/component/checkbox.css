@@ -1,0 +1,34 @@
+.checkbox-item .checkbox {
+    display: none;
+}    
+
+.form-checkbox {
+    position: relative;
+    width: 24px;
+    height: 24px; 
+}
+
+.checkbox-item::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.bg-checkbox {
+    position: absolute;
+    top: 0px;
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -1220px -357px; 
+    width: 24px;
+    height: 24px;
+    border: 1px solid #5DC748;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: none;
+}
+.form-checkbox .checkbox-item .checkbox:checked ~ .bg-checkbox {
+    display: block;
+}

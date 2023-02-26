@@ -1,0 +1,83 @@
+
+.combobox-paging {
+    position: relative;
+    width: 220px;
+    border: 1px solid #babec5;
+    border-radius: 4px;
+}
+
+.default-option{
+    width: 100%;
+    padding: 8px 12px;
+    border-radius:4px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.default-option-text{
+    font-size:14px;
+    line-height: 20px;
+    font-weight:400;
+}
+
+.arrow-paging{
+    width: 40px;
+    height:36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius:4px;
+    cursor: pointer;
+}
+
+.arrow-paging:hover{
+    background-color: #e0e0e0;
+}
+
+.arrow-img{
+    background: url(/assets/img/Sprites.64af8f61.svg) no-repeat -366px -358px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.total-option-paging{
+    position: absolute;
+    bottom: 20px;
+    width:220px;
+}
+#list-option-paging{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    overflow: hidden;
+    padding: 0px 8px 8px 8px;
+    box-sizing: border-box;
+
+}
+
+.option-paging{
+    width: 100%;
+    height: 36px;
+    padding: 8px;
+    list-style: none;
+    font-size: 14px;
+    line-height:18px;
+    font-weight: 400;
+    border-radius:4px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.option-paging:hover{
+    color: #fff;
+    background-color: #2D9E1C;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}

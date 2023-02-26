@@ -1,0 +1,183 @@
+
+.popup{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.377);
+    z-index: 99;
+}
+
+.popup-employee{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 670px;
+    padding: 24px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.popup-header{
+    display: flex;
+    height: 32px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popup-header-left{
+    display: flex;
+}
+
+.popup-header-left .title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.client-supplier-wrapper{
+    display: flex;
+    margin-left: 8px;
+}
+
+.popup-header-left .or-client-supplier {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.popup-header-left .or-client-supplier input,
+.popup-header-left .or-client-supplier input {
+    height: 20px;
+    width: 20px;
+}
+
+.popup-header-right {
+    display: flex;
+    column-gap: 8px;
+}
+
+.popup-header-right .tutorial {
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+    background-position: -732px -31px;
+    cursor: pointer;
+}
+
+
+.popup-header-right .close {
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+    background-position: -143px -145px;
+    cursor: pointer;
+}
+
+.popup-body{
+    margin-top: 24px;
+    width: 100%;
+    height: 470px;
+}
+
+.employee-info {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.general-info-left{
+    width: 476px;
+    height: 222px;
+}
+.m-row{
+    display: flex;
+    width: 100%;
+    column-gap: 8px;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.input-code, .input-birth, .input-identity-date{
+    width: 150px;
+}
+.input-name, .input-identity{
+    width: 240px;
+}
+select.select-unit{
+    width: 450px;
+}
+
+.input-title, .input-identity-place {
+    width: 450px;
+    box-sizing: border-box;
+}
+.general-info-right{
+    width: 476px;
+    height: 222px;
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+
+.input-dob{
+    width: 180px;
+}
+
+.gender-type{
+    display: flex;
+    column-gap: 8px;
+    height: 45px;
+    align-items: center;
+}
+
+.input-gender{
+    width: 20px;
+    height: 20px;
+}
+
+.general-contact{
+    width: 100%;
+    height: 224px;
+}
+.input-address{
+    width: 925px;
+}
+.input-general-info{
+    width: 200px;
+}
+
+.popup-footer {
+    margin-top: 34px;
+}
+
+.btn-cancel-add-save {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.btn-cancel-att,
+.btn-save-att {
+	border:1px solid rgba(128, 128, 128, 0.53);
+	color: #000;
+	background-color: #fff;
+}
+
+.btn-cancel-att:hover,
+.btn-save-att:hover {
+    background-color: #fff;
+    border: 1px solid #50b83c;
+}
+
+.error-text{
+    margin-top:6px;
+    font-size:10px;
+    font-weight: 400;
+    color: red;
+}
+
